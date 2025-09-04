@@ -4,7 +4,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-/*     border: 2px solid red; */
+    /* border: 2px solid red; */
     gap: 50px;
 }
 .main{
@@ -31,180 +31,228 @@ body{
 .blue{
     width: 20px;
     height: 20px;
-    background-color: blue;
+    background-color: #4285F4;
     border-radius: 10px;
-    animation:x1 5s ease-out;
+    animation:x1 10s ease-out;
     /* animation-iteration-count: 2; */
 }
 @keyframes x1 {
- 0%{
+0%,10%{
     transform: translate(0px,0px);
     height: 20px;
     }
-    10%{
+    5%,15%{
         transform: translate(0px,-20px);
         height: 20px;
-    }
-    20%
-    {
+    }  
+   20%{
+    transform: translate(0px,0px);
+     height: 20px;
+   }
+    23%,28%,33%,38%,43%,48%,53%,58%{
+        height: 100px;
         transform: translate(0px,0px);
-         height: 20px;
-    }    
-   30%{
-        transform: translate(0px,-20px);
-         height: 20px;
-   }
-   40%{
-    transform: translate(0px,0px);
-     height: 20px;
-   }
-   50%{
-    transform: translate(0px,0px);
-     height: 20px;
-   }
-   53%,58%,63%,68%,73%,78%,83%,88%,93%,98%{
-    height: 100px;
-   }
-    55%,60%,65%,70%,75%,80%,85%,90%,95%,100%{
+    }
+    25%,30%,35%,40%,45%,50%,55%{
     height: 25px;
+    transform: translate(0px,0px);
+   }
+   60% ,65%,70%,75%,80%,85%{
+    transform: translate(10px);
+    height: 20px;
+   }
+   63%,68% ,73%,78%,83%,88%,90%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+  91%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+   93%{
+    transform: translatey(-50px);
+    /* height: 20px; */
+   }
+   95%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+   100%{
+    transform: translate(0px);
    }
    
-
-
+   
    
 }
 
 .red{
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color:#DB4437;
     border-radius: 15px;
-    animation:x2 5s ease-in-out;
+    animation:x2 10s ease-in-out;
     /* animation-iteration-count: 2; */
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
 @keyframes x2 {
- 0%{
+0%,10%{
     transform: translate(0px,0px);
     height: 20px;
     }
-    10%{
+    5%,15%{
         transform: translate(0px,-20px);
         height: 20px;
-    }
-    20%
-    {
+    }  
+   20%{
+    transform: translate(0px,0px);
+     height: 20px;
+   }
+    23%,28%,33%,38%,43%,48%,53%,58%{
+        height: 100px;
         transform: translate(0px,0px);
-         height: 20px;
-    }    
-   30%{
-        transform: translate(0px,-20px);
-         height: 20px;
-   }
-   40%{
-    transform: translate(0px,0px);
-     height: 20px;
-   }
-   50%{
-    transform: translate(0px,0px);
-     height: 20px;
-   }
-   53%,58%,63%,68%,73%,78%,83%,88%,93%,98%{
-    height: 100px;
-   }
-    55%,60%,65%,70%,75%,80%,85%,90%,95%,100%{
+    }
+    25%,30%,35%,40%,45%,50%,55%{
     height: 25px;
+    transform: translate(0px,0px);
+   }
+   60% ,65%,70%,75%,80%,85%{
+    transform: translate(10px);
+    height: 20px;
+   }
+   63%,68% ,73%,78%,83%,88%,90%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+   91%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+   93%{
+    transform: translatey(-50px);
+    /* height: 20px; */
+   }
+   95%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+   100%{
+    transform: translate(0px);
    }
    
-  
+   
 }
 .yellow{
      width: 20px;
     height: 20px;
-    background-color: yellow;
+    background-color: #FBBC05;
     border-radius: 10px;
-    animation:x3 5s ease-in-out;
+    animation:x3 10s ease-in-out;
     /* animation-iteration-count: 2; */
-    animation-delay: 0.3s;
+    animation-delay: 0.2s;
 }
 @keyframes x3 {
-0%{
+0%,10%{
     transform: translate(0px,0px);
     height: 20px;
     }
-    10%{
+    5%,15%{
         transform: translate(0px,-20px);
         height: 20px;
-    }
-    20%
-    {
+    }  
+   20%{
+    transform: translate(0px,0px);
+     height: 20px;
+   }
+    23%,28%,33%,38%,43%,48%,53%,58%{
+        height: 100px;
         transform: translate(0px,0px);
-         height: 20px;
-    }    
-   30%{
-        transform: translate(0px,-20px);
-         height: 20px;
-   }
-   40%{
-    transform: translate(0px,0px);
-     height: 20px;
-   }
-   50%{
-    transform: translate(0px,0px);
-     height: 20px;
-   }
-   53%,58%,63%,68%,73%,78%,83%,88%,93%,98%{
-    height: 100px;
-   }
-    55%,60%,65%,70%,75%,80%,85%,90%,95%,100%{
+    }
+    25%,30%,35%,40%,45%,50%,55%{
     height: 25px;
+    transform: translate(0px,0px);
+   }
+   60% ,65%,70%,75%,80%,85%{
+    transform: translate(10px);
+    height: 20px;
+   }
+   63%,68% ,73%,78%,83%,88%,90%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+     91%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+   93%{
+    transform: translatey(-50px);
+    /* height: 20px; */
+   }
+   95%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+   100%{
+    transform: translate(0px);
    }
    
-  
+   
 }
 .green{
      width: 20px;
     height: 20px;
-    background-color: green;
+    background-color: #34A853;
     border-radius: 10px;
-    animation:x4 5s ease-in-out;
+    animation:x4 10s ease-in-out;
     /* animation-iteration-count: 2; */
-    animation-delay: 0.4s;
+    animation-delay: 0.3s;
 }
 @keyframes x4 {
-  0%{
+0%,10%{
     transform: translate(0px,0px);
     height: 20px;
     }
-    10%{
+    5%,15%{
         transform: translate(0px,-20px);
         height: 20px;
-    }
-    20%
-    {
+    }  
+   20%{
+    transform: translate(0px,0px);
+     height: 20px;
+   }
+    23%,28%,33%,38%,43%,48%,53%,58%{
+        height: 100px;
         transform: translate(0px,0px);
-         height: 20px;
-    }    
-   30%{
-        transform: translate(0px,-20px);
-         height: 20px;
-   }
-   40%{
-    transform: translate(0px,0px);
-     height: 20px;
-   }
-   50%{
-    transform: translate(0px,0px);
-     height: 20px;
-   }
-   53%,58%,63%,68%,73%,78%,83%,88%,93%,98%{
-    height: 100px;
-   }
-    55%,60%,65%,70%,75%,80%,85%,90%,95%,100%{
+    }
+    25%,30%,35%,40%,45%,50%,55%{
     height: 25px;
+    transform: translate(0px,0px);
+   }
+   60% ,65%,70%,75%,80%,85%{
+    transform: translate(10px);
+    height: 20px;
+   }
+   63%,68% ,73%,78%,83%,88%,90%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+   91%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+   93%{
+    transform: translatey(-50px);
+    /* height: 20px; */
+   }
+   95%{
+    transform: translate(0px);
+    /* height: 20px; */
+   }
+   100%{
+    transform: translate(0px);
+   }
+   
+   
 }
 
    
   
-
-}
